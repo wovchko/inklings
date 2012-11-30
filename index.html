@@ -4,4 +4,10 @@ description: This is the landing page
 ---
 {% for post in site.posts limit: 6 %}
 {% include post-article.html %}
+{% cycle 'one', 'two', 'three' %}
+{% cycle 'one', 'two', 'three' %}
+{% cycle 'one', 'two', 'three' %}
+{% cycle 'one', 'two', 'three' %}
+{% cycle 'one', 'two', 'three' %}
+{% cycle 'one', 'two', 'three' %}
 {% endfor %}
