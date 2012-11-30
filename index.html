@@ -2,12 +2,6 @@
 layout: default
 description: This is the landing page
 ---
-{% for post in site.posts limit: 3 %}
+{% for post in site.posts limit: 6 %}
 {% include post-article.html %}
-{% cycle '', '', '', '', '', '' %}
-{% cycle '', '', '', '', '', '' %}
-{% cycle '', '', '', '', '', '' %}
-{% cycle '', '', '', 'ZDjj', '', '' %}
-{% cycle '', '', '', '', '', '' %}
-{% cycle '', '', '', '', '', '' %}
 {% endfor %}
