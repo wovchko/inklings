@@ -2,6 +2,10 @@
 layout: default
 description: This is the landing page
 ---
-{% for post in site.posts limit: 3 %}
+{% for post in site.posts limit: 6 %}
 {% include post-article.html %}
+  {% capture thecycle %}{% endcapture %}
+  {% if thecycle == 2 %}
+    <div>echo something</div>
+  {% endif %}
 {% endfor %}
