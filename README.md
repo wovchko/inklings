@@ -31,7 +31,7 @@
 - (N) Navs, tabs, and pills
 - (N) Navbar
 - (N) Breadcrumbs
-- (N) Pagination
+- (Y) Pagination
 - (N) Pager
 - (N) Thumbnails
 - (N) Alerts
