@@ -1,33 +1,9 @@
 ---
 layout: default
 ---
-{% for post in site.posts limit:1 %}
-   {% if forloop.first %}
-     <div class="row-fluid">
-       <div class="span6 offset3">
-         <h5>{{post.title}}</h5>
-         <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
-       </div>
-       <div class="span3"></div>
-     </div>
-   {% endif %}
+{% for post in site.posts %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+  {% if thecycle == 'odd' %}
+    <div>THIS IS ODD</div>
+  {% endif %}
 {% endfor %}
-
-
-
-     <div class="row-fluid">
-       <div class="span3"></div>
-{% for post in site.posts limit:5 %}
-   {% unless forloop.first %}
-     {% if forloop.index == "4" %}
-       <div class="span3"></div></div><div class="span3"></div>
-     {% else %}
-       <div class="span3">
-         <h5>{{post.title}}</h5>
-         <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
-       </div>
-     {% endif %}
-   {% endunless %}
-{% endfor %}
-       <div class="span3"></div>
-     </div>
