@@ -12,16 +12,16 @@ layout: default
        <div class="span3"></div>
      </div>
    {% endif %}
+   {% unless forloop.first %}
      <div class="span12">
        <div class="span3"></div>
-   {% unless forloop.first %}
-       <div class="span3">
+       <div class="span6">
          <h5>{{post.title}}</h5>
-         <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
+         <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
        </div>
-   {% endunless %}
        <div class="span3"></div>
      </div>
+   {% endunless %}
    {% else %}
      Nothing to show here.
 {% endfor %}
