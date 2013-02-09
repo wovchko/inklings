@@ -3,9 +3,8 @@ layout: default
 ---
 {% for post in site.posts limit:3 %}
    {% if forloop.first %}
-     <div class="span12">
-       <div class="span3"></div>
-       <div class="span6">
+     <div class="row-fluid">
+       <div class="span6 offset3">
          <h5>{{post.title}}</h5>
          <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
        </div>
@@ -13,9 +12,8 @@ layout: default
      </div>
    {% endif %}
    {% unless forloop.first %}
-     <div class="span12">
-       <div class="span3"></div>
-       <div class="span6">
+     <div class="row-fluid">
+       <div class="span6 offset3">
          <h5>{{post.title}}</h5>
          <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
        </div>
