@@ -7,10 +7,10 @@ layout: default
           <h5>{{post.title}}</h5>
           <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
         </div>
-  {% endif %}
-{% elseif %}
+  {% elseif %}
         <div class="span3">
           <h5>{{post.title}}</h5>
           <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
         </div>
+  {% endif %}
 {% endfor %}
