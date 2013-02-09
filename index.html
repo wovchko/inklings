@@ -2,8 +2,8 @@
 layout: default
 ---
 {% for post in site.posts %}
-  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-  {% if thecycle == 'odd' %}
+  {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
+  {% if thecycle == '3' %}
     <div>{{ forloop.index }}</div>
   {% endif %}
 {% endfor %}
