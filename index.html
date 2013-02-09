@@ -14,7 +14,7 @@ layout: default
 {% endfor %}
 
 
-{% for post in site.posts limit:7 offset:1 %}
+{% for post in site.posts limit:6 offset:1 %}
   {% capture thecycle %}{% cycle '1', '2' %}{% endcapture %}     
     {% if thecycle == '1' or forloop.last == true %}
      <div class="row-fluid">
