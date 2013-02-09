@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}
+{% for post in site.posts limit:3 %}
    {% if forloop.first %}
      {{ forloop.index }}: {{ post.title }}
    {% endif %}
-{% else %}
-   Nothing to show here.
+
+   {% unless forloop.first %}
+     {{ forloop.index }}: {{ post.title }}
+   {% endunless %}
+   {% else %}
+     Nothing to show here.
 {% endfor %}
