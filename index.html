@@ -3,11 +3,16 @@ layout: default
 ---
 {% for post in site.posts limit:3 %}
    {% if forloop.first %}
-     {{ forloop.index }}: {{ post.title }}
+     <div class="span6">
+       <h5>{{post.title}}</h5>
+       <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
+     </div>
    {% endif %}
-
    {% unless forloop.first %}
-     {{ forloop.index }}: {{ post.title }}
+     <div class="span3">
+       <h5>{{post.title}}</h5>
+       <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
+     </div>
    {% endunless %}
    {% else %}
      Nothing to show here.
