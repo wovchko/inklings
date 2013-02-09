@@ -35,14 +35,11 @@ layout: default
                   <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
                 </div>
              {% endif %}
-             
-             
              {% if thecycle == '2' and forloop.last == true %}
              </div>
-               <div class="span3"></div>
-               <div class="span3"></div>
+             <div class="row-fluid">
+               <div class="span9"></div>
              {% endif %}             
-             
          {% endfor %}
        <div class="span3"></div>
      </div>
