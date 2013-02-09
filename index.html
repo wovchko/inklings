@@ -25,6 +25,14 @@ layout: default
                   <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
                 </div>
              {% endif %}
+
+
+
+             {% if thecycle == '2' and forloop.last == true %}
+                 BRENDAN
+             {% endif %}
+
+
              {% if thecycle == '3' %}
                <div class="span3"></div>
               </div>
@@ -34,13 +42,6 @@ layout: default
                   <h5>{{post.title}}</h5>
                   <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
                 </div>
-
-
-                       {% if thecycle == '2' and forloop.last == true %}
-                           BRENDAN
-                       {% endif %}  
-
-
              {% endif %}           
          {% endfor %}
        <div class="span3"></div>
