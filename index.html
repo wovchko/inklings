@@ -23,7 +23,7 @@ layout: default
          <h5>{{post.title}}</h5>
          <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
        </div>
-      {% if forloop.last == true %}
+      {% if thecycle == '1' and forloop.last == true %}
        <div class="span6"></div>
      </div>         
       {% endif %}
