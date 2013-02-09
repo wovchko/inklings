@@ -28,15 +28,12 @@ layout: default
      </div>         
       {% endif %}
     {% endif %}
-    {% if thecycle == '2' or forloop.last == true %}
+    {% if thecycle == '2' %}
        <div class="span3">
          <h5>{{post.title}}</h5>
          <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
        </div>
        <div class="span3"></div>
      </div>
-      {% if forloop.last == true %}
-         BRENDAN
-      {% endif %}
     {% endif %}        
 {% endfor %}
