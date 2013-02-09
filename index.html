@@ -11,7 +11,7 @@ layout: default
        <div class="span3"></div>
      </div>
    {% endif %}
-
+{% endfor %}
      <div class="row-fluid">
    {% unless forloop.first %}
        <div class="span3">
@@ -19,7 +19,5 @@ layout: default
          <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
        </div>
    {% endunless %}
-     </div>
-   {% else %}
-     Nothing to show here.
 {% endfor %}
+     </div>
