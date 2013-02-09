@@ -35,6 +35,12 @@ layout: default
                   <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
                 </div>
              {% endif %}
+             
+             
+             {% if thecycle == '1' and forloop.last == true %}
+               BRENDAN
+             {% endif %}             
+             
          {% endfor %}
        <div class="span3"></div>
      </div>
