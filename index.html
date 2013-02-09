@@ -12,13 +12,17 @@ layout: default
      </div>
    {% endif %}
 {% endfor %}
+
+
+
      <div class="row-fluid">
-{% for post in site.posts limit:4 %}
+{% for post in site.posts limit:3 %}
    {% unless forloop.first %}
-       <div class="span3">
+       <div class="span3" offset3>
          <h5>{{post.title}}</h5>
          <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
        </div>
    {% endunless %}
 {% endfor %}
+       <div class="span3"></div>
      </div>
