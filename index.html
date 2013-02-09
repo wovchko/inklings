@@ -2,22 +2,26 @@
 layout: default
 ---
 {% for post in site.posts limit:3 %}
+     <div class="span12"></div>
    {% if forloop.first %}
-     <div class="span3"></div>
-     <div class="span6">
-       <h5>{{post.title}}</h5>
-       <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
-     </div>
-     <div class="span3"></div>
+       <div class="span3"></div>
+       <div class="span6">
+         <h5>{{post.title}}</h5>
+         <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
+       </div>
+       <div class="span3"></div>
    {% endif %}
-     <div class="span3"></div>
-   {% unless forloop.first %}
-     <div class="span3">
-       <h5>{{post.title}}</h5>
-       <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
      </div>
+     <div class="span12"></div>
+       <div class="span3"></div>
+   {% unless forloop.first %}
+       <div class="span3">
+         <h5>{{post.title}}</h5>
+         <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
+       </div>
    {% endunless %}
-     <div class="span3"></div>
+       <div class="span3"></div>
+     </div>
    {% else %}
      Nothing to show here.
 {% endfor %}
