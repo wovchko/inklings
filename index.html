@@ -2,8 +2,8 @@
 layout: default
 ---
 {% for post in site.posts %}
-  {% if forloop.first %}{% endif %}
-    Index is {{ forloop.index }}
+  {% if forloop.first %}Index is {% endif %}
+    {{ forloop.index }}
   {% else %}
     Nothing to show here.
 {% endfor %}
