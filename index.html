@@ -1,18 +1,8 @@
 ---
 layout: default
 ---
-{% for post in site.posts limit:3 %}
+<ul >
+{% for post in site.posts limit 3 %}
 <h5>{{post.title}}</h5>
-<p>
-   {% assign breakIndex = -1 %}
-   {% for element in post.content %}
-     {% if element contains '<!--more-->' %}
-       {% assign breakIndex = forloop.index %}
-     {% endif %}
-   {% endfor %}
-   
-   {% for element in post.content limit: breakIndex %}
-     {{ element }}
-   {% endfor %}
-<a href="{{post.url}}">Read more &raquo;</a></p>
+<p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
 {% endfor %}
