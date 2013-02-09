@@ -4,5 +4,5 @@ layout: default
 <ul >
 {% for post in site.posts limit 3 %}
 <h5>{{post.title}}</h5>
-<p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
+<p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
 {% endfor %}
