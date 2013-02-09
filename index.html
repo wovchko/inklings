@@ -14,32 +14,20 @@ layout: default
 {% endfor %}
 
 
-
      <div class="row-fluid">
        <div class="span3"></div>
-
-
-
-{% for post in site.posts %}
-   {% unless forloop.first %}
-       <div class="span3">
-         <h5>{{post.title}}</h5>
-         <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
-       </div>
-
-            {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
-            {% if thecycle == '3' %}
-              <div class="span3"></div></div><div class="span3"></div>
-            {% endif %}
-
-   {% endunless %}
-{% endfor %}
-
-
-
+         {% for post in site.posts %}
+             {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
+         
+             {% if thecycle == '1' or thecycle == '2' %}
+                <div class="span3">
+                  <h5>{{post.title}}</h5>
+                  <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
+                </div>
+         
+             {% if thecycle == '3' %}
+               <div class="span3"></div></div><div class="span3"></div>
+             {% endif %}
+         {% endfor %}
        <div class="span3"></div>
      </div>
-
-
-
-
