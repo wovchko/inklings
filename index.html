@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% for post in site.posts limit:3 %}
+{% for post in site.posts limit:5 %}
    {% if forloop.first %}
      <div class="row-fluid">
        <div class="span6 offset3">
@@ -11,15 +11,15 @@ layout: default
        <div class="span3"></div>
      </div>
    {% endif %}
-   {% unless forloop.first %}
+
      <div class="row-fluid">
-       <div class="span6 offset3">
+   {% unless forloop.first %}
+       <div class="span3">
          <h5>{{post.title}}</h5>
          <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
        </div>
-       <div class="span3"></div>
-     </div>
    {% endunless %}
+     </div>
    {% else %}
      Nothing to show here.
 {% endfor %}
