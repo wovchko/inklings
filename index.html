@@ -2,7 +2,9 @@
 layout: default
 ---
 {% for post in site.posts %}
-   {% if forloop.first %}{% endif %}
+   {% if forloop.first %}
+     Exists!
+   {% endif %}
      {{ forloop.index }}: {{ post.title }}
 {% else %}
    Nothing to show here.
