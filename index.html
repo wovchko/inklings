@@ -2,7 +2,7 @@
 layout: default
 ---
 {% for post in site.posts limit:3 %}
-  {% if forloop.index == 1 %}
+  {% if forloop.index == '1' %}
         <div class="span6">
           <h5>{{post.title}}</h5>
           <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
