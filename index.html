@@ -1,7 +1,18 @@
 ---
 layout: default
-description: This is the landing page
 ---
-{% for post in site.posts limit: 3 %}
-{% include post-article.html %}
+{% for post in site.posts limit:3 %}
+<h5>{{post.title}}</h5>
+<p>
+   {% assign breakIndex = -1 %}
+   {% for element in post.content %}
+     {% if element contains '<!--more-->' %}
+       {% assign breakIndex = forloop.index %}
+     {% endif %}
+   {% endfor %}
+   
+   {% for element in post.content limit: breakIndex %}
+     {{ element }}
+   {% endfor %}
+<a href="{{post.url}}">Read more &raquo;</a></p>
 {% endfor %}
