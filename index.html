@@ -16,7 +16,7 @@ layout: default
 
      <div class="row-fluid">
        <div class="span3"></div>
-         {% for post in site.posts %}
+         {% for post in site.posts offset:1 %}
              {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
          
              {% if thecycle == '1' or thecycle == '2' %}
