@@ -25,9 +25,10 @@ layout: default
                   <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
                 </div>
 
-                  {% if thecycle == '2' %}
-                  </div>
-                  {% endif %}
+              {% if thecycle == '2' %}
+                <div class="span3">
+              </div>
+              {% endif %}
              {% endif %}
 
 
