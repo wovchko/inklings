@@ -18,7 +18,7 @@ layout: default
    {% unless forloop.first %}
        <div class="span3">
          <h5>{{post.title}}</h5>
-         <p>{{ post.content | strip_html | truncatewords:75}} <a href="{{post.url}}">Read more &raquo;</a></p>
+         <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
        </div>
    {% endunless %}
 {% endfor %}
