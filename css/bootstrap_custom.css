@@ -842,28 +842,20 @@ h6 small {
 }
 /* Wovchko customization; Begin */
 h1 {
+  font-size: 16px;
   line-height: 18px;
 }
 h2 {
+  font-size: 84px;
   line-height: 26px;
 }
 h3 {
+  font-size: 29px;
   line-height: 31px;
 }
 h4 {
-  line-height: 32px;
-}
-h1 {
-  font-size: 16px;
-}
-h2 {
-  font-size: 84px;
-}
-h3 {
-  font-size: 29px;
-}
-h4 {
   font-size: 22px;
+  line-height: 32px;
 }
 h5 {
   font-size: 23px;
@@ -1291,6 +1283,13 @@ table th[class*="span"],
   display: inherit !important;
 }
 @media (min-width: 768px) and (max-width: 979px) {
+
+/* Wovchko customization; Begin */
+  h2 {
+    font-size: 72px;
+    line-height: 18px;
+  }
+/* Wovchko customization; End */
   .hidden-desktop {
     display: inherit !important;
   }
