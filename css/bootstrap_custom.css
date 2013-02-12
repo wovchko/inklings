@@ -747,7 +747,7 @@ h3 {
   text-transform: uppercase;
   margin: 5px 0 0 0;
 }
-h3 span {
+h3 span.lower {
   text-transform: lowercase;
 }
 h4, h4 a:link, h4 a:visited, h4 a:active {
