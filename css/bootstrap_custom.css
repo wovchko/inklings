@@ -1283,13 +1283,6 @@ table th[class*="span"],
   display: inherit !important;
 }
 @media (min-width: 768px) and (max-width: 979px) {
-
-/* Wovchko customization; Begin */
-  h2 {
-    font-size: 72px;
-    line-height: 18px;
-  }
-/* Wovchko customization; End */
   .hidden-desktop {
     display: inherit !important;
   }
@@ -1318,6 +1311,12 @@ table th[class*="span"],
   }
 }
 @media (max-width: 767px) {
+  /* Wovchko customization; Begin */
+  h2 {
+    font-size: 72px;
+    line-height: 18px;
+  }
+  /* Wovchko customization; End */
   body {
     padding-left: 20px;
     padding-right: 20px;
