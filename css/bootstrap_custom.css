@@ -722,7 +722,7 @@ a.text-success:hover {
 /* Wovchko customization; Begin */
 .hero-unit {
 }
-.hero-unit h1, .hero-unit h1 a:link, .hero-unit h1 a:visited, .hero-unit h1 a:active {
+h1, h1 a:link, h1 a:visited, h1 a:active {
   font-family: marvel, serif;
   color: #A9A9A9;
   text-align: right;
@@ -730,11 +730,11 @@ a.text-success:hover {
   text-decoration: none;
   margin: 5px 0 0 0;
 }
-.hero-unit h1 a:hover {
+h1 a:hover {
   color: #e30006;
   text-decoration: none;
 }
-.hero-unit h2 {
+h2 {
   padding: 0 0 0 0;
   color: #000000;
   font-family: istok-web, serif;
@@ -743,16 +743,16 @@ a.text-success:hover {
   text-transform: uppercase;
   margin: 40px 0 25px -4px;  
 }
-.hero-unit h3 {
+h3 {
   font-family: marvel, serif;
   color: #e30006;
   text-transform: uppercase;
   margin: 5px 0 0 0;
 }
-.hero-unit h3 span.lower {
+h3 span.lower {
   text-transform: lowercase;
 }
-.hero-unit h4, h4 a:link, h4 a:visited, h4 a:active {
+h4, h4 a:link, h4 a:visited, h4 a:active {
   font-family: marvel, serif;
   color: #999999;
   text-transform: none;
@@ -760,10 +760,10 @@ a.text-success:hover {
   margin: 0 0 0 0;
   padding: 15px 0 50px 0;
 }
-.hero-unit h4 a:hover {
+h4 a:hover {
   color: #e30006;
 }
-.hero-unit h4 span {
+h4 span {
   color: #cccccc;
 }
 .recent {
@@ -843,26 +843,26 @@ h6 small {
   color: #999999;
 }
 /* Wovchko customization; Begin */
-.hero-unit h1 {
+h1 {
   font-size: 16px;
   line-height: 18px;
 }
-.hero-unit h2 {
+h2 {
   font-size: 84px;
   line-height: 26px;
 }
-.hero-unit h3 {
+h3 {
   font-size: 29px;
   line-height: 31px;
 }
-.hero-unit h4 {
+h4 {
   font-size: 22px;
   line-height: 32px;
 }
-.hero-unit h5 {
+h5 {
   font-size: 23px;
 }
-.hero-unit h6 {
+h6 {
   font-size: 14px;
 }
 /* Wovchko customization; End */
@@ -1314,26 +1314,26 @@ table th[class*="span"],
 }
 @media (max-width: 767px) {
   /* Wovchko customization; Begin */
-  .hero-unit h1 {
+  h1 {
     font-size: 13px;
     line-height: 15px;
   }
-  .hero-unit h2 {
+  h2 {
     font-size: 70px;
     line-height: 22px;
   }
-  .hero-unit h3 {
+  h3 {
     font-size: 22px;
     line-height: 26px;
   }
-  .hero-unit h4 {
+  h4 {
     font-size: 18px;
     line-height: 27px;
   }
-  .hero-unit h5 {
+  h5 {
     font-size: 19px;
   }
-  .hero-unit h6 {
+  h6 {
     font-size: 12px;
   }
   /* Wovchko customization; End */
