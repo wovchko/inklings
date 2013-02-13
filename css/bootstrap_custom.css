@@ -727,6 +727,7 @@ h1, h1 a:link, h1 a:visited, h1 a:active {
   text-align: right;
   text-transform: uppercase;
   text-decoration: none;
+  margin 0;
   padding: 5px 0 0 0;
   background-color: black;
 }
