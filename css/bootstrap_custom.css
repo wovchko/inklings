@@ -721,9 +721,6 @@ a.text-success:hover {
 }
 
 /* Wovchko customization; Begin */
-.hero {
-  text-align: left;
-}
 h1, h1 a:link, h1 a:visited, h1 a:active {
   font-family: marvel, serif;
   color: #A9A9A9;
