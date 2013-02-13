@@ -721,6 +721,7 @@ a.text-success:hover {
 
 /* Wovchko customization; Begin */
 .hero-unit {
+  background-color: black;
   margin: auto 0;
 }
 h1, h1 a:link, h1 a:visited, h1 a:active {
@@ -1337,10 +1338,11 @@ table th[class*="span"],
   h6 {
     font-size: 12px;
   }
-  body {
-    padding: 0;
-  }
   /* Wovchko customization; End */
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
