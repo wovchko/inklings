@@ -10,7 +10,5 @@ server: true
 server_port: 3000
 lsi: falsei
 safe: false
-paginate: 20
-
-exclude:
-- CNAME
+paginate: 5
+exclude: ['README.md', 'CNAME', 'robots.txt', '404.html', '.gitignore', 'sitempap.xml']
