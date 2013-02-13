@@ -759,6 +759,8 @@ h4, h4 a:link, h4 a:visited, h4 a:active {
   text-transform: none;
   text-decoration: none;
   margin: 0 0 0 0;
+}
+h4 {
   padding: 15px 0 50px 339px;
 }
 h4 a:hover {
