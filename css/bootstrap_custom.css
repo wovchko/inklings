@@ -1312,8 +1312,9 @@ table th[class*="span"],
 @media (max-width: 767px) {
   /* Wovchko customization; Begin */
   h1 {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 15px;
+    text-align: center;
   }
   h2 {
     font-size: 70px;
