@@ -1329,7 +1329,8 @@ table th[class*="span"],
   }
   h4 {
     font-size: 17px;
-    line-height: 20px;
+    line-height: 27px;
+    padding: 10px 0 50px 0;
   }
   h5 {
     font-size: 19px;
