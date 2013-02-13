@@ -656,10 +656,12 @@ a:hover {
 .container:after {
   clear: both;
 }
+/* Wovchko customization; Begin */
 .container-fluid {
   padding 0;
   *zoom: 1;
 }
+/* Wovchko customization; End */
 .container-fluid:before,
 .container-fluid:after {
   display: table;
@@ -1338,11 +1340,10 @@ table th[class*="span"],
   h6 {
     font-size: 12px;
   }
-  /* Wovchko customization; End */
   body {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0;
   }
+  /* Wovchko customization; End */
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
