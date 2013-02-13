@@ -764,9 +764,6 @@ h4, h4 a:link, h4 a:visited, h4 a:active {
 h4 a:hover {
   color: #e30006;
 }
-h4 span {
-  color: #cccccc;
-}
 .recent {
   padding: 50px 0 100px 0;
   border-top: #cccccc 1px solid;
