@@ -746,6 +746,7 @@ h3 {
   font-family: marvel, serif;
   color: #e30006;
   text-transform: uppercase;
+  white-space: nowrap;
   margin: 5px 0 0 0;
 }
 h3 span.lower {
