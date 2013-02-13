@@ -740,14 +740,12 @@ h2 {
   font-weight: 700;
   letter-spacing: -5px;
   text-transform: uppercase;
-  padding: 0 0 0 339px;
   margin: 40px 0 25px -4px;
 }
 h3 {
   font-family: marvel, serif;
   color: #e30006;
   text-transform: uppercase;
-  padding: 0 0 0 339px;
   margin: 5px 0 0 0;
 }
 h3 span.lower {
@@ -759,9 +757,7 @@ h4, h4 a:link, h4 a:visited, h4 a:active {
   text-transform: none;
   text-decoration: none;
   margin: 0 0 0 0;
-}
-h4 {
-  padding: 15px 0 50px 339px;
+  padding: 15px 0 50px 0;
 }
 h4 a:hover {
   color: #e30006;
