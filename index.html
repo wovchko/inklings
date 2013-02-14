@@ -1,7 +1,7 @@
 ---
 layout: index
 ---
-{% if paginator.page == '1' %}
+{% if paginator.page == 1 %}
  {% for page in paginator.posts limit:1 %}
   {% if forloop.first %}
      <div class="row-fluid">
