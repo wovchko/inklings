@@ -1,8 +1,8 @@
 ---
 layout: index
 ---
-{% for page in paginator.posts limit:1 %}
- {% if paginator.page == 1 %}
+{% if paginator.page == 1 %}
+ {% for page in paginator.posts limit:1 %}
   {% if forloop.first %}
      <div class="row-fluid">
        <div class="span6 offset3">
@@ -12,8 +12,8 @@ layout: index
        <div class="span3"></div>
      </div>
   {% endif %}
- {% endif %}
-{% endfor %}
+ {% endfor %}
+{% endif %}
 
 {% for page in paginator.posts limit:6 offset:1 %}
   {% capture thecycle %}{% cycle '1', '2' %}{% endcapture %}     
