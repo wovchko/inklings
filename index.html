@@ -2,7 +2,7 @@
 layout: index
 ---
 {% for page in paginator.posts limit:1 %}
- {% if paginator.previous_page != 1 %}
+ {% if paginator.page != 1 %}
   {% if forloop.first %}
      <div class="row-fluid">
        <div class="span6 offset3">
