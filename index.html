@@ -1,15 +1,9 @@
 ---
 layout: index
 ---
-<div class="posts">
-	<ul class="thumbnails">
 	{% for page in paginator.posts %}
-		{% cycle '<div class="row" style="padding-top: 30px;">', '', '' %}
 		{{ page.title }}"
-    {% cycle '', '', '</div>' %}
 	{% endfor %}
-	</ul>
-</div>
 
 <!-- Pagination links -->
 <div class="pagination pagination-centered">
