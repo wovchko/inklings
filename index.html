@@ -1,32 +1,65 @@
 ---
 layout: index
 ---
-	{% for page in paginator.posts %}
-		{{ page.title }}"
-	{% endfor %}
+{% for post in site.posts limit:1 %}
+  {% if forloop.first %}
+     <div class="row-fluid">
+       <div class="span6 offset3">
+         <h5>{{post.title}}</h5>
+         <p>{{ post.content | strip_html | truncatewords:125}} <a href="{{post.url}}">Read more &raquo;</a></p>
+       </div>
+       <div class="span3"></div>
+     </div>
+  {% endif %}
+{% endfor %}
 
-<!-- Pagination links -->
-<div class="pagination pagination-centered">
-	<ul>
-		{% if paginator.next_page %}
-	    <li class="next"> 
-			<a href="/page{{paginator.next_page}}" title="Next Page" class="next" rel="next">&larr; Older Posts</a>
-			</li>
-		{% else %}
-			<li class="disabled"><a href="#">NO MORE!!!</a></li>
-	  {% endif %}
-	
-	  {% if paginator.previous_page %}
-	    <li class="prev">
-				{% if paginator.previous_page == 1 %}
-      		<a href="/" title="Previous Page" class="prev">Newer Posts &rarr;</a>
-      	{% else %}
-					<a href="/page{{paginator.previous_page}}" title="Previous Page" class="prev" rel="prev">Newer Posts &rarr;</a>
-				{% endif %}
-			</li>
-		{% else %}
-			<li class="disabled"><a href="#">Newer Posts &rarr;</a></li>
-	  {% endif %}
-	</ul>
-</div>
 
+{% for post in site.posts limit:6 offset:1 %}
+  {% capture thecycle %}{% cycle '1', '2' %}{% endcapture %}     
+    {% if thecycle == '1' or forloop.last == 'true' %}
+     <div class="row-fluid">
+       <div class="span3 offset3">
+         <h5>{{post.title}}</h5>
+         <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
+       </div>
+      {% if thecycle == '1' and forloop.last == 'true' %}
+       <div class="span6"></div>
+     </div>         
+      {% endif %}
+    {% endif %}
+    {% if thecycle == '2' %}
+       <div class="span3">
+         <h5>{{post.title}}</h5>
+         <p>{{ post.content | strip_html | truncatewords:30}} <a href="{{post.url}}">Read more &raquo;</a></p>
+       </div>
+       <div class="span3"></div>
+     </div>
+    {% endif %}        
+{% endfor %}
+
+
+        <div class="row-fluid">
+          <div class="span6 offset3">
+            <ul class="pager">
+              {% if paginator.previous_page %}
+              <li class="previous">
+                <a href="/page{{paginator.previous_page}}">&larr; Older</a>
+              </li>
+              {% else %}
+              <li class="previous disabled">
+                <a href="#">&larr; Older</a>
+              </li>
+             {% endif %}
+             {% if paginator.next_page %}
+              <li class="next">
+                <a href="/page{{paginator.next_page}}">Newer &rarr;</a>
+              </li>
+              {% else %}
+              <li class="next disabled">
+                <a href="#">Newer &rarr;</a>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+          <div class="span3"></div>
+        </div>
