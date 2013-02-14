@@ -10,7 +10,7 @@ layout: nil
  <title>{{ site.title }}</title>
  {% endif %} 
  
- <link href="http://inklin.gs/sitemap.atom" rel="self"/>
+ <link href="http://inklin.gs/feed.atom" rel="self"/>
  <link href="http://inklin.gs/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://inklin.gs/</id>
