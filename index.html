@@ -36,7 +36,6 @@ layout: index
     {% endif %}        
 {% endfor %}
 
-
         <div class="row-fluid">
           <div class="span6 offset3">
             <ul class="pager">
@@ -50,14 +49,20 @@ layout: index
               </li>
              {% endif %}
              {% if paginator.previous_page %}
+              {% if paginator.previous_page == 1 %}
               <li class="next">
-                <a href="/page{{paginator.previous_page}}">Newer &rarr;</a>
+                <a href="/">Newer &rarr;</a>
               </li>
               {% else %}
+              <li class="next">
+                <a href="/page{{paginator.next_page}}">Newer &rarr;</a>
+              </li>              
+              {% endif %}
+             {% else %}
               <li class="next disabled">
                 <a href="#">Newer &rarr;</a>
               </li>
-              {% endif %}
+             {% endif %}
             </ul>
           </div>
           <div class="span3"></div>
