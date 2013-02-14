@@ -16,9 +16,9 @@ layout: index
 {% endif %}
 
 {% if paginator.page == 1 %}
- {% assign postLimit = 5 and postOffset = 1 %}
+ {% assign postLimit = 5 and assign postOffset = 1 %}
 {% else %}
- {% assign postLimit = 12 and postOffset = 0 %}
+ {% assign postLimit = 12 and assign postOffset = 0 %}
 {% endif %}
 
 {% for page in paginator.posts limit:['postLimit'] offset:['postOffset'] %}
