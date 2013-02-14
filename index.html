@@ -1,20 +1,7 @@
 ---
 layout: index
 ---
-{% for post in site.posts limit:1 %}
-  {% if forloop.first %}
-     <div class="row-fluid">
-       <div class="span6 offset3">
-         <h5>{{post.title}}</h5>
-         <p>{{ post.content | strip_html | truncatewords:125}} <a href="{{post.url}}">Read more &raquo;</a></p>
-       </div>
-       <div class="span3"></div>
-     </div>
-  {% endif %}
-{% endfor %}
-
-
-{% for post in site.posts limit:6 offset:1 %}
+{% for post in site.posts limit:6 %}
   {% capture thecycle %}{% cycle '1', '2' %}{% endcapture %}     
     {% if thecycle == '1' or forloop.last == 'true' %}
      <div class="row-fluid">
