@@ -12,4 +12,3 @@ lsi: falsei
 safe: false
 paginate: 8
 exclude: ['README.md', 'CNAME', 'robots.txt', '404.html', '.gitignore', 'sitempap.xml']
-future: --no-future
