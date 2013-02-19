@@ -7,7 +7,7 @@ layout: index
      <div class="row-fluid">
        <div class="span6 offset3">
          <h5>{{page.title}}</h5>
-         <p>{{page.content | strip_html | truncatewords:125}} <a href="{{page.url}}">Read more &raquo;</a></p>
+         <p>{{page.description | strip_html | truncatewords:125}} <a href="{{page.url}}">Read more &raquo;</a></p>
        </div>
        <div class="span3"></div>
      </div>
@@ -32,7 +32,7 @@ layout: index
     <div class="row-fluid">
       <div class="span3 offset3">
         <h5>{{page.title}}</h5>
-        <p>{{page.content | strip_html | truncatewords:30}} <a href="{{page.url}}">Read more &raquo;</a></p>
+        <p>{{page.description | strip_html | truncatewords:30}} <a href="{{page.url}}">Read more &raquo;</a></p>
       </div>
      {% if thecycle == '1' and forloop.last == 'true' %}
       <div class="span6"></div>
@@ -42,7 +42,7 @@ layout: index
    {% if thecycle == '2' %}
       <div class="span3">
         <h5>{{page.title}}</h5>
-        <p>{{page.content | strip_html | truncatewords:30}} <a href="{{page.url}}">Read more &raquo;</a></p>
+        <p>{{page.description | strip_html | truncatewords:30}} <a href="{{page.url}}">Read more &raquo;</a></p>
       </div>
       <div class="span3"></div>
     </div>
