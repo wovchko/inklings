@@ -1,5 +1,5 @@
 # Inklin.gs is a blog by Brendan Wovchko.
-- Ideas to align Nashville's Suits, Developers, & Designers
+- Ideas to align Nashville's Suits, Designers, Developers, Testers, & Analysts
 - A Github Project Profile powered by Github Pages & Jekyll
 - Copyright information can be found in the footer of the web site.
 
