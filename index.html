@@ -3,13 +3,17 @@ layout: index
 ---
 {% if paginator.page == 1 %}
  {% for page in paginator.posts limit:2 %}
-   <div class="row-fluid">
-     <div class="span6 offset3">
-       <h5>{{page.title}}</h5>
-       <p>{{page.description | strip_html | truncatewords:125}} <a href="{{page.url}}">Read more &raquo;</a></p>
+     <div class="row-fluid">
+       <div class="span6 offset3">
+         <h5>{{page.title}}</h5>
+         {% if forloop.first == 'true' %}
+         <p>{{page.content | strip_html | truncatewords:200}} <a href="{{page.url}}">Read more &raquo;</a></p>
+         {% else %}
+         <p>{{page.description | strip_html | truncatewords:125}} <a href="{{page.url}}">Read more &raquo;</a></p>
+         {% endif %}
+       </div>
+       <div class="span3"></div>
      </div>
-     <div class="span3"></div>
-   </div>
  {% endfor %}
 {% endif %}
 
@@ -26,7 +30,7 @@ layout: index
 {% endfor %}
 
 {% for page in paginator.posts limit:['postLimit'] offset:['postOffset'] %}
-  {% capture thecycle %}{% cycle '1', '2' %}{% endcapture %}     
+  {% capture thecycle %}{% cycle '1', '2' %}{% endcapture %}
    {% if thecycle == '1' or forloop.last == 'true' %}
     <div class="row-fluid">
       <div class="span3 offset3">
