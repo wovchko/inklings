@@ -8,17 +8,23 @@ layout: index
          <p>{{ content }}</p>
        </div>
        <div class="span3"></div>
+       <div class="span6 offset3">
+         {% if page.tags != empty %}
+             <h4>Tags</h4>
+             <ul>
+             {% for tag in page.tags %}
+               <li><a href="/">{{ tag }}</a></li>
+             {% endfor %}
+             </ul>
+         {% endif %}
+         {% if site.related_posts != empty %}
+             <h4>Related Posts</h4>
+               <ul>
+               {% for post in site.related_posts limit:3 %}
+               <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+               {% endfor %}
+               </ul>
+         {% endif %}
+       </div>
+       <div class="span3"></div>
      </div>
-
-  {% if page.tags != empty %}
-      <h4>Tags</h4>
-      {% for tag in page.tags %}
-        <li><a href="/">{{ tag }}</a></li>
-      {% endfor %}
-  {% endif %}
-  {% if site.related_posts != empty %}
-      <h4>Related Posts</h4>
-        {% for post in site.related_posts limit:3 %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-  {% endif %}
