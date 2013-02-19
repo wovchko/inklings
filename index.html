@@ -19,13 +19,13 @@ layout: index
 {% for page in paginator.posts %}
 {% assign postLimit = nil and postOffset = nil %}
  {% if paginator.page == 1 %}
-  {% assign postLimit = 4 and assign postOffset = 1 %}
+  {% assign postLimit = 4 %}
  {% else %}
-  {% assign postLimit = 8 and assign postOffset = 0 %}
+  {% assign postLimit = 8 %}
  {% endif %}
 {% endfor %}
 
-{% for page in paginator.posts limit:['postLimit'] offset:['postOffset'] %}
+{% for page in paginator.posts limit:['postLimit'] offset:{ if postLimit = 4}1{% else %}0 %}
   {% capture thecycle %}{% cycle '1', '2' %}{% endcapture %}     
    {% if thecycle == '1' or forloop.last == 'true' %}
     <div class="row-fluid">
