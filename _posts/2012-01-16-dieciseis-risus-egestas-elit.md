@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dieciseis Risus Egestas Elit"
-description: "Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum."
+description: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla."
 author: Brendan Wovchko
 tags:
 - parturient

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nueve Purus Fusce Quam"
-description: "Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui."
+description: "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus."
 author: Brendan Wovchko
 tags:
 - etiam

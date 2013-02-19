@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Veintitres Ipsum Cras Mollis"
-description: "Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
 author: Brendan Wovchko
 tags:
 - euismod

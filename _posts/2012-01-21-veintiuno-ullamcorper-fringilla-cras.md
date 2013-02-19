@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Veintiuno Ullamcorper Fringilla Cras"
-description: "Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna."
+description: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna."
 author: Brendan Wovchko
 tags:
 - commodo

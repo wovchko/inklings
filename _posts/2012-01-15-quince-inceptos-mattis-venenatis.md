@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quince Inceptos Mattis Venenatis"
-description: "Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
+description: "Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo."
 author: Brendan Wovchko
 tags:
 - etiam

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Doce Ullamcorper Pharetra Tortor"
-description: "Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+description: "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros."
 author: Brendan Wovchko
 tags:
 - egestas

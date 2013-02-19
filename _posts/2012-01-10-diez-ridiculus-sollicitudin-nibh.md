@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Diez Ridiculus Sollicitudin Nibh"
-description: "Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui."
+description: "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."
 author: Brendan Wovchko
 tags:
 - fringilla

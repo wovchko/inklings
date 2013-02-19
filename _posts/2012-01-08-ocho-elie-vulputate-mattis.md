@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ocho Elie Vulputate Mattis"
-description: "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui."
+description: "Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla."
 author: Brendan Wovchko
 tags:
 - parturient

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Uno Amet Justo Vestibulum"
-description: "Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
+description: "Maecenas faucibus mollis interdum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
 author: Brendan Wovchko
 tags:
 - dolor

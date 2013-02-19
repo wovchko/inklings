@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dos Cras Adipiscing Tortor"
-description: "Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+description: "Donec sed odio dui. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis risus eget urna mollis ornare vel eu leo."
 author: Brendan Wovchko
 tags:
 - fringilla
