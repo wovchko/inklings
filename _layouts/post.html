@@ -4,10 +4,12 @@ layout: index
      <div class="row-fluid">
        <div class="span6 offset3">
          <h5>{{page.title}}</h5>
-         <p>Posted on <time>{{ page.date | date: "%d %B %Y" }}</time></p>
+         <p>Posted on {{ page.date | date: "%d %B %Y" }}</p>
          <p>{{ content }}</p>
        </div>
        <div class="span3"></div>
+     </div>
+     <div class="row-fluid">
        <div class="span6 offset3">
          {% if page.tags != empty %}
              <h4>Tags</h4>
