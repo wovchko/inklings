@@ -17,7 +17,7 @@ layout: index
 
 {% for page in paginator.posts %}
 {% assign postLimit = nil %}
-{% and postOffset = nil %}%}
+{% assign postOffset = nil %}
  {% if paginator.page == 1 %}
   {% assign postLimit = 3 %}
   {% assign postOffset = 1 %}
