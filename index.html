@@ -7,7 +7,8 @@ layout: index
        <div class="span6 offset3">
          <h5>{{page.title}}</h5>
          <p>
-         {% if forloop.first == 'true' %}
+         {% capture thecycle %}{% cycle '1', '2' %}{% endcapture %}
+         {% if thecycle == '1'%}
            {{page.content | strip_html | truncatewords:200}}
          {% else %}
            {{page.description | strip_html | truncatewords:1}}
