@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Trece Lorem Fusce Venenatis"
-description: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet."
+description: "Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur."
 author: Brendan Wovchko
 tags:
 - nullam
