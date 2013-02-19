@@ -2,16 +2,14 @@
 layout: index
 ---
 {% if paginator.page == 1 %}
- {% for page in paginator.posts limit:1 %}
-  {% if forloop.first %}
-     <div class="row-fluid">
-       <div class="span6 offset3">
-         <h5>{{page.title}}</h5>
-         <p>{{page.description | strip_html | truncatewords:125}} <a href="{{page.url}}">Read more &raquo;</a></p>
-       </div>
-       <div class="span3"></div>
+ {% for page in paginator.posts limit:2 %}
+   <div class="row-fluid">
+     <div class="span6 offset3">
+       <h5>{{page.title}}</h5>
+       <p>{{page.description | strip_html | truncatewords:125}} <a href="{{page.url}}">Read more &raquo;</a></p>
      </div>
-  {% endif %}
+     <div class="span3"></div>
+   </div>
  {% endfor %}
 {% endif %}
 
