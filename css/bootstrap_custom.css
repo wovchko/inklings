@@ -734,12 +734,13 @@ h1 a:hover {
   color: #e30006;
   text-decoration: none;
 }
-h2 {
+h2, h2 a:link, h2 a:visited, h2 a:active, h2 a:hover {
   color: #000000;
   font-family: istok-web, serif;
   font-weight: 700;
   letter-spacing: -5px;
   text-transform: uppercase;
+  text-decoration:none;
   margin: 40px 0 25px -4px;
 }
 h3 {
