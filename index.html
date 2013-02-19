@@ -6,11 +6,13 @@ layout: index
      <div class="row-fluid">
        <div class="span6 offset3">
          <h5>{{page.title}}</h5>
+         <p>
          {% if forloop.first == 'true' %}
-         <p>{{page.content | strip_html | truncatewords:200}} <a href="{{page.url}}">Read more &raquo;</a></p>
+           {{page.content | strip_html | truncatewords:200}}
          {% else %}
-         <p>{{page.description | strip_html | truncatewords:125}} <a href="{{page.url}}">Read more &raquo;</a></p>
+           {{page.description | strip_html | truncatewords:125}}
          {% endif %}
+         <a href="{{page.url}}">Read more &raquo;</a></p>
        </div>
        <div class="span3"></div>
      </div>
