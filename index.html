@@ -11,7 +11,7 @@ layout: index
          {% if thecycle == '1'%}
            {{page.content | strip_html | truncatewords:200}}
          {% else %}
-           {{page.description | strip_html | truncatewords:175}}
+           {{page.description | strip_html | truncatewords:150}}
          {% endif %}
          <a href="{{page.url}}">Read more &raquo;</a></p>
        </div>
