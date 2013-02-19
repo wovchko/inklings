@@ -4,20 +4,20 @@ layout: index
      <div class="row-fluid">
        <div class="span6 offset3">
          <h5>{{page.title}}</h5>
-         <p>published on <time>{{ page.date | date: "%d %B %Y" }}</time></p>
+         <p>Posted on <time>{{ page.date | date: "%d %B %Y" }}</time></p>
          <p>{{ content }}</p>
        </div>
        <div class="span3"></div>
      </div>
 
   {% if page.tags != empty %}
-      <h1>Tags</h1>
+      <h4>Tags</h4>
       {% for tag in page.tags %}
         <li><a href="/">{{ tag }}</a></li>
       {% endfor %}
   {% endif %}
   {% if site.related_posts != empty %}
-      <h1>Related Posts</h1>
+      <h4>Related Posts</h4>
         {% for post in site.related_posts limit:3 %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
