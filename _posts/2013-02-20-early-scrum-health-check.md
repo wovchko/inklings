@@ -22,7 +22,7 @@ Near the conclusion of dinner, I agreed to send my friend a list of appropriate 
 ### Product Owner
 - Has the group of ~75 been divided into teams no larger than 10?
 - Does each team have a stated purpose, specialty, or area of focus?
-- Have specific areas of responsibility been identified for each Team so that the organization knows to which team they should send specific work requests.
+- Have specific areas of responsibility been identified for each Team so that the organization knows to which team they should direct specific work requests.
 - Has a Sprint duration been defined and upheld without special extensions?
 - Has a Product Owner been defined for each Team?
 - Do Product Owners hold any other role on the Team (developer, tester, etc.)?
