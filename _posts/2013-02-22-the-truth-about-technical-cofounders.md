@@ -16,7 +16,7 @@ But all is not perfect in the land of unicorns and perpetual sunshine.  Really b
 
 As an entrepreneurial technologist I've had an adequate number of conversations with business entrepreneurs over the years to know when someone is about to offer me a piece of their company.   I got that vibe today.  But then I did something I hadn't premeditated.  It's something I'd encourage others to do too.  I stopped the start-up CEO before he cracked any eggs.  I told him I didn't want to be CTO of his start-up, to partner with him for equity, or options for dividends in his company.  I just want to help him.
 
-### How does a non-technical founder get the help s/he needs to build a web or mobile software product?
+##### How does a non-technical founder get the help s/he needs to build a web or mobile software product?
 
 There is a growing population of software engineers and technology leaders that are extroverted enough to defy a few dozen negative stereotypes and quickly create meaningful connections within the business crowd.  I call them _Articulate Geeks_.  Although these Articulate Geeks spend a large percentage of their time with _Suits_, they are keen enough to stay connected with their roots and endear themselves to the development community.  They sit between the technical and business realms and hold the keys to building highly capable teams.  They've got just the right amount of grey hair.  They have well-curated LinkedIn profiles. These characteristics send the message to Suits that Articulate Geeks bring proven execution to the table — but don't have so many notches in their belt that they have "I'd rather be golfing" bumper stickers on their Land Rovers.  Suits get oddly mesmerized by the Articulate Geeks' ability to quickly switch between an empathetic pitch of a product's vision to an empirical assessment of an engineering objective.  In short, Suits almost always put Articulate Geeks on pedestals.  The problem emerges when, you guessed it, Suits figure out that Articulate Geeks are human.
 
@@ -27,7 +27,7 @@ I don't mean to single-out Articulate Geeks.  Suits come with their own bag of t
 As a non-technical founder of a start-up, you want to find an Articulate Geek.  But you'll need to resist the temptation to go into business with them on day one.
 
 
-### How do Suits and Articulate Geeks work together successfully?
+##### How do Suits and Articulate Geeks work together successfully?
 
 I've found that building pre-revenue team chemistry is all about the past experience of the founder(s).  I've long believed that people partner in business too early.  When a company is in it's early phases, it's not likely the CEO has figured out how to be a CEO yet — as most start-ups are spear-headed by a first-time CEO.  At later stages in a company's journey I believe that Articulate Geeks and Suits can work together quite well — but within the first year or two of growth an Articulate Geek will likely compete too much with the CEO for authority and cause problems.
 
@@ -42,7 +42,7 @@ This model, my friends, is what true __mentorship__ between an Articulate Geek a
 For my fellow Nashvilian's, technical mentorship is what many of us set out to offer when we aligned ourselves with the Entrepreneur Center and JumpStart Foundry over the past four years.  What we learned is that a higher value was placed on business planning and preparing founders to raise investment dollars than the development of revenue producing products.  No harm, though.  New opportunity to provide a different flavor of mentorship is actively emerging through institutions like Nashville Software School and the many Hack events popping up all over town.
 
 
-### Should Articulate Geeks be Early-Stage Co-Founders?
+##### Should Articulate Geeks be Early-Stage Co-Founders?
 
 My recommendation to my technical comrades would be to steer enthusiastic conversations away from partnership and toward mentoring.  Yes, you may have successfully read between the lines.  _I do not advocate for Technical Co-Founders in pre-revenue companies._
 
@@ -55,7 +55,8 @@ If at any point the CEO feels the Articulate Geek(s) acting as Mentor(s) would b
 __Notice to CEO's: Breaking the above rule is a great way to find yourself on the butt end of an entire city of software engineers.  It would be unwise to string along an Articulate Geek.__
 
 
-### What should a Suit expect from a Articulate Geek acting as a Mentor?
+##### What should a Suit expect from a Articulate Geek acting as a Mentor?
+
 - S/he won't write code
 - S/he can help recruit full time, part time, or contract-based talent
 - S/he can implement an estimating and planning methodology to aid in identifying product roadmaps and timelines
@@ -66,7 +67,7 @@ __Notice to CEO's: Breaking the above rule is a great way to find yourself on th
 - S/he can develop architecture, scaling, source code management, network, back-up, monitoring, failover, emergency disaster recovery and other planning exercises
 
 
-### Conclusion
+##### Conclusion
 
 We all need to remember that most of us will be a part of the Nashville community for a long time.  A decade from now I want the same thing for you that I want for myself — to see a lot of successful businesses in which I lent a helping hand toward.  Some I'll own a part of.  Some I'll make an ongoing advisory contribution to.  Some I'll cheer on from the sidelines.  Others I will have gained the privilege of doing future business with through the act of mentorship in place of partnership.
 

@@ -19,7 +19,7 @@ He asked a simple question, "How do I know the training is working?".  Loaded qu
 
 Near the conclusion of dinner, I agreed to send my friend a list of appropriate questions he could use as a benchmark while interviewing a team only three iterations into adopting Scrum.  I've included that list below.
 
-### Product Owner
+##### Product Owner
 - Has the group of ~75 been divided into teams no larger than 10?
 - Does each team have a stated purpose, specialty, or area of focus?
 - Have specific areas of responsibility been identified for each Team so that the organization knows to which team they should direct specific work requests.
@@ -41,7 +41,7 @@ Near the conclusion of dinner, I agreed to send my friend a list of appropriate 
 - Does the Product Owner feel that the Team expects him/her to fully scope work without their collaboration or contribution?
 - Are User Story writing workshops being conducted with the Team and Stakeholders to help aid in the process of identifying work?
 
-### Scrum Master
+##### Scrum Master
 - Has a Scrum Master been defined for each Team?
 - Is the Scrum Master working across more than three team?
 - Is Velocity being tracked for each Team?
@@ -51,13 +51,13 @@ Near the conclusion of dinner, I agreed to send my friend a list of appropriate 
 - Is a Sprint Burndown chart centrally available and maintained daily for all Team members and Stakeholders to review?
 - Has a Definition of Ready been adopted by each Team and act as a gatekeeper between the Product Backlog and Sprint Backlog?
 
-### Team
+##### Team
 - Does the Team feel they have had a collaborative role in shaping the degree of specificity in the work they are being asked to do?
 - At the start of a Sprint, is work full shaped with all needed assets (interfaces, approved copy, etc)?
 - Is new work added, work priority dictated, or work scope modified mid-Sprint?
 - Does the Team feel as though they are empowered to reject a request to include work in a Sprint due to the work not being ready?
 
-### Ceremonies
+##### Ceremonies
 - Is the Daily Scrum occurring daily where the Team stands and is time-boxed to 15 minutes?
 - Are teams previewing their work during the Sprint Review from a single branch in their source code management tool on a single server environment which mirrors production?
 - Are Backlog Grooming meetings happening with the full Team at least twice per Sprint?
@@ -68,7 +68,7 @@ Near the conclusion of dinner, I agreed to send my friend a list of appropriate 
 - Have all ceremonies been implemented: Daily Scrum, Backlog Grooming, Sprint Planning, Sprint Review, and Sprint Retrospective?
 - Is the Sprint cycle on a solid and predictable schedule where deadlines and expectations are being met without the need for special exceptions?
 
-### Product Backlog
+##### Product Backlog
 - Is work being defined exclusively on a physical or digital backlog?
 - Is work articulated in User Story format?
 - Do User Stories contain Acceptance Criteria?
