@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Truth About Early-Stage Technical Co-Founders"
-description: ""
+description: "I just had one of those coffee meetings that was scheduled for one hour and turned into three.  If you are an entrepreneur or someone with a large appetite for risk/reward, you know the kind of first time meet-up I'm talking about.  The kind where ideas just click.  But all is not perfect in the land of unicorns and perpetual sunshine.  Really bad decisions are made in these kinds of meetings.  Two very dangerous words lurks on the tongues of entrepreneurial people when they talk about pre-revenue ideas — _co-founder_ and _equity_.  Two eggs, that when cracked, are nearly impossible to unscramble without someone feeling that they've been screwed."
 author: Brendan Wovchko
 tags:
 - mentoring
