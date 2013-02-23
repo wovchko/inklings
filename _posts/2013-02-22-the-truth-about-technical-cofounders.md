@@ -65,6 +65,7 @@ __Notice to CEO's: Breaking the above rule is a great way to find yourself on th
 - S/he can act as an advocate and reference for potential investors
 - S/he can develop architecture, scaling, source code management, network, back-up, monitoring, failover, emergency disaster recovery and other planning exercises
 
+
 ### Conclusion
 
 We all need to remember that most of us will be a part of the Nashville community for a long time.  A decade from now I want the same thing for you that I want for myself — to see a lot of successful businesses in which I lent a helping hand toward.  Some I'll own a part of.  Some I'll make an ongoing advisory contribution to.  Some I'll cheer on from the sidelines.  Others I will have gained the privilege of doing future business with through the act of mentorship in place of partnership.
