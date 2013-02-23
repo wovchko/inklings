@@ -753,7 +753,7 @@ h3 {
 h3 span.lower {
   text-transform: lowercase;
 }
-h3 .title {
+h3 title {
   white-space: normal;
   color: #000000;
 }
@@ -857,7 +857,7 @@ h3 {
   font-size: 29px;
   line-height: 31px;
 }
-h3 .title {
+h3 title {
   font-size: 20px;
   line-height: 22px;
 }
