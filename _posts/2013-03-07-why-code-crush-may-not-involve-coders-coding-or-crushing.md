@@ -26,7 +26,9 @@ By my measure, Code Crush isn’t really the exclusive source of the digital bla
 - Why aren’t they engaging the informal circle of influencers who can help them shape their ideas into propositions the technical community will embrace?
 - Why are they asking for free labor without being clear about the scope, ongoing commitment, risks, IP assignments, and potential rewards?
 - Why ask for free help in creating a commercial endeavor when the extremely successful not-for-profit events the technical community has self-organized have gone unsupported?
-- Why haven’t they engaged the leadership that has successfully produced events twice the size and has a built-in, proven following?I’ve got a ton of respect for all the parties involved.  So in the spirit of being constructive, I’m going to offer some general feedback to the broad business community on how to best earn the ear of the technical community.  After all, we all have aligned interests.  We love Nashville, believe in the incredible potential that exists here, and understand that working together is an absolute necessity to transform Nashville into a vibrant start-up culture.
+- Why haven’t they engaged the leadership that has successfully produced events twice the size and has a built-in, proven following?
+
+I’ve got a ton of respect for all the parties involved.  So in the spirit of being constructive, I’m going to offer some general feedback to the broad business community on how to best earn the ear of the technical community.  After all, we all have aligned interests.  We love Nashville, believe in the incredible potential that exists here, and understand that working together is an absolute necessity to transform Nashville into a vibrant start-up culture.
 
 Before I deep-dive into my best attempt at representing my peers, let me first share a few of my personal beliefs.  
 
