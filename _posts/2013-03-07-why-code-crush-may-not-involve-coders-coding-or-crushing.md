@@ -38,7 +38,7 @@ The issue isn’t high caliber people — we have that.  The issue is communicat
 
 I’ve observed tension between the financial and technical communities for a long time.  Wait, let’s broaden that.  It’s the business community and craftsman community (designers, engineers, SEO, writers, etc).
 
-The members of the design community who participate in the615 have been getting antsy since 2000 whenever well-intentioned business people posted an “opportunity” to the group to win the privilege of re-branding their company by means of a “design contest”.  I’ve observed the615 community up-in-arms when the Technology Council allegedly used tax dollars to outsource design work offshore.  I’ve seen the technical community react so negatively to initiatives like the User Group Roundtable and Platform Showdown that they were cancelled.  Further, the community of craftsman never show-up in a noticeable way to support free events like Spark Nashville or G4E Nashville.
+The members of the design community who participate in the615 have been getting antsy since 2000 whenever well-intentioned business people posted an “opportunity” to the group to win the privilege of re-branding their company by means of a “design contest”.  I’ve observed the615 community up-in-arms when the Technology Council allegedly used tax dollars to outsource design work offshore.  I’ve seen the technical community react so negatively to initiatives like the User Group Roundtable and Platform Showdown that they were cancelled.  Further, the community of craftsman never show-up in a noticeable way to support events like Spark Nashville or G4E Nashville.
 
 How many more failures are we going to have before we begin to understand that we need to talk to each other before issuing press releases?
 
