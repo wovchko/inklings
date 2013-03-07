@@ -22,7 +22,7 @@ One last time — as simple as I can make it. Rich guys ask middle class guys to
 
 By my measure, Code Crush isn’t really the exclusive source of the digital blaze that my phone has been suffering from all day.  Code Crush is the latest in a series of events that the financial community has attempted to organize to stimulate the technical community’s involvement in initiatives backed by Entrepreneur's Center, Nashville Technology Council, and Nashville’s Chamber of Commerce.
 
-## There are a few consistent themes I’ve lifted from today’s email threads.  If the financial community wants engagement with the entrepreneurial segment of the technology community...
+# There are a few consistent themes I’ve lifted from today’s email threads.  If the financial community wants engagement with the entrepreneurial segment of the technology community...
 - Why aren’t they engaging the informal circle of influencers who can help them shape their ideas into propositions the technical community will embrace?
 - Why are they asking for free labor without being clear about the scope, ongoing commitment, risks, IP assignments, and potential rewards?
 - Why ask for free help in creating a commercial endeavor when the extremely successful not-for-profit events the technical community has self-organized have gone unsupported?
@@ -74,7 +74,7 @@ __The Stack Matters.__  Using innovative tools in the development of your produc
 
 __Stop Backing Horrible Ideas.__  This one is important.  Craftsman are paying attention to the money that the finance community is putting into start-ups.  Seriously, 90% would still be horrible ideas if they were executed flawlessly.  It would be good to include actual product developers and marketers in the selection of companies who get selected into local incubation programs.
 
-## In conclusion, I’m recommending a number of calls to action for my respected colleagues in the finance community who are seeking to align great ideas with great craftsman:
+# In conclusion, I’m recommending a number of calls to action for my respected colleagues in the finance community who are seeking to align great ideas with great craftsman:
 - Let’s get serious about communicating with one another.
 - Understand who the community leaders are and engage them
 - Support the organic efforts of craftsman instead of creating something new
