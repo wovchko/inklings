@@ -772,6 +772,7 @@ h4 a:hover {
 .recent h5 {
   font-family: marvel, serif;
   font-size: 26px;
+  line-height: 24px;
   color: #333333;
 }
 .recent p {
@@ -779,7 +780,6 @@ h4 a:hover {
   font-size: 17px;
   line-height: 24px;
   color: #333333;
-  margin: 0 0 35px 0;
 }
 .recent p a {
   color: #e30006;
