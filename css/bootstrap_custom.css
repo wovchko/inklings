@@ -753,6 +753,10 @@ h3 {
 h3 span.lower {
   text-transform: lowercase;
 }
+h3.title {
+  white-space: normal;
+  color: #000000;
+}
 h4, h4 a:link, h4 a:visited, h4 a:active {
   font-family: marvel, serif;
   color: #999999;
@@ -771,15 +775,17 @@ h4 a:hover {
 }
 .recent h5 {
   font-family: marvel, serif;
-  font-size: 26px;
-  line-height: 24px;
-  color: #333333;
+  font-weight: 700;
+  line-height: 26px;
+  color: #000000;
+  margin: 0 0 5px 0;
 }
 .recent p {
   font-family: marvel, serif;
   font-size: 17px;
-  line-height: 26px;
+  line-height: 24px;
   color: #333333;
+  margin: 0 0 35px 0;
 }
 .recent p a {
   color: #e30006;
