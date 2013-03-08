@@ -794,7 +794,8 @@ h4 a:hover {
 .recent ul {
     font-family: marvel, serif;
     font-size: 17px;
-    padding: 0 10px;
+    margin-top: 20px;
+    padding-left: 10px;
     list-style: none;
 }
 .recent li:before { 
@@ -806,7 +807,7 @@ h4 a:hover {
     height: 0;
     width: 0;
     left: -1em;
-    top: 20px;
+    top: 0.9em;
     position: relative;
 }
 .footer {
