@@ -3,7 +3,7 @@ layout: index
 ---
      <div class="row-fluid">
        <div class="span6 offset3">
-         <h5>{{page.title}}</h5>
+         <h5 class="title">{{page.title}}</h5>
          <p>Posted on {{ page.date | date: "%d %B %Y" }}</p>
          {{ content }}
        </div>
@@ -12,7 +12,7 @@ layout: index
      <div class="row-fluid">
        <div class="span3 offset3">
          {% if site.related_posts != empty %}
-             <h5>Related Posts</h5>
+             <h5 class="title">Related Posts</h5>
                <ul>
                {% for post in site.related_posts limit:3 %}
                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -22,7 +22,7 @@ layout: index
        </div>
        <div class="span3">
          {% if page.tags != empty %}
-             <h5>Tags</h5>
+             <h5 class="title">Tags</h5>
              <ul>
              {% for tag in page.tags %}
                <li>{{ tag }}</li>
