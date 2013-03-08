@@ -793,6 +793,9 @@ h4 a:hover {
   color: #e30006;
   white-space: nowrap;
 }
+.recent strong {
+  font-weight: bold;
+}
 .recent ul {
     font-family: marvel, serif;
     font-size: 17px;
