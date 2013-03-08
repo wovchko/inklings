@@ -794,7 +794,8 @@ h4 a:hover {
 .recent ul {
     font-family: marvel, serif;
     font-size: 17px;
-    margin: 20px 0 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-left: 10px;
     list-style: none;
 }
