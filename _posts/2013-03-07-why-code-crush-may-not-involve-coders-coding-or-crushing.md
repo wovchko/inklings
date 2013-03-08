@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why Code Crush May Not Involve Coders, Coding, or Crushing"
-description: ""
+description: "Nashville is fortunate that it has a handful of talented people who act as a bridge between the business and technical communities.  I feel privileged that some of my peers have begun counting me as part of that circle.  Compared to most others in our nerdy fraternity, I'm among the lessor known.  I suppose a big part of the reason I lack public luster is because of a decision I made during my first start-up in 1999.   I try my best to endear myself to the technical community as opposed to promoting myself among the finance community.  I enjoy a role as a connector and facilitator among my fellow geeks and have never regretted the decisions that have resulted in my lack of access to the cigar lounges of the finance community."
 author: Brendan Wovchko
 tags:
 - mentoring
