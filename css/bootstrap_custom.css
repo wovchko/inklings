@@ -810,6 +810,9 @@ h4 a:hover {
     top: 0.9em;
     position: relative;
 }
+.recent h5 {
+    font-size: 17px;
+}
 .footer {
   padding: 45px 0 0 0;
   background-color: #121212;
