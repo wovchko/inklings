@@ -773,7 +773,7 @@ h4 a:hover {
   padding: 50px 0 100px 0;
   border-top: #cccccc 1px solid;
 }
-.recent h5 .title {
+.recent h5.title {
   font-family: marvel, serif;
   font-weight: 700;
   line-height: 26px;
